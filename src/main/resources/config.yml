@@ -1,0 +1,13 @@
+BlockExpEvent:
+  #原版是1.0
+  Multiple: 2.0
+  #黑名单中的方块不享受加成，请使用物品小写ID
+  BlackListBlock:
+    - "nether_quartz_ore"
+PlayerFishEvent:
+  Multiple: 2.0
+BlockDropItemEvent:
+  #代表每次收获得到经验的概率百分比，20即为20%，以下配置代表20%概率在玩家收获时增加该玩家1点经验值。
+  Chance: 20.0
+  #EXP必须是整数！
+  Exp: 1

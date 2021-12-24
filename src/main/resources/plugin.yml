@@ -1,0 +1,11 @@
+name: SpicyExperience
+version: '${project.version}'
+main: org.minecraft.server.wolf.spicyexperience.SpicyExperience
+api-version: 1.17
+prefix: SpicyExperience
+authors: [ MikkoAyaka ]
+commands:
+  spicyexperience:
+    aliases:
+      - se
+
